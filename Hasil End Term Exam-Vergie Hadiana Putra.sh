@@ -11,7 +11,7 @@
 if [[ "${UID}" -ne 0 ]]; then
     echo " You need to run this script as root on servera or serverb"
     exit 1
-#fi
+fi
 
 echo -ne '\n'
 echo -ne '#	                     		(0%)\r'
